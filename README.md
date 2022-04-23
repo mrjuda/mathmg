@@ -22,4 +22,3 @@ Live version: NOT YET
 
 ## 📝License
 This project is [MIT](https://github.com/mrjuda/MM/blob/main/LICENSE) licensed.
-
