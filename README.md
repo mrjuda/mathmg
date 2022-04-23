@@ -19,6 +19,5 @@ Live version: NOT YET
 - LinkedIn: [@judateixeira](https://www.linkedin.com/in/judateixeira "Judá Teixeira's Linkedin profile")
 - Twitter: [@judalabs](https://twitter.com/judalabs "Judá Teixeira's Twitter profile")
 
-
 ## 📝License
 This project is [MIT](https://github.com/mrjuda/MM/blob/main/LICENSE) licensed.
