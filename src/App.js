@@ -3,12 +3,14 @@
 
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import Calc from './components/Calc';
+import Calc from './components/Calculator';
 
-function App() {
-  return (
-    <Calc />
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <Calc />
+    );
+  }
 }
 
 export default App;
