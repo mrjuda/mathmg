@@ -5,6 +5,8 @@
   grid-template-rows: repeat(6, 1fr);
   color: #000;
   background-color: #ddd;
+  width: 100%;
+  max-width: 100vh;
 }
 
 .line {
@@ -29,7 +31,8 @@
   grid-template-columns: 2fr 1fr 1fr;
 }
 
-.display {
+.calc-display {
+  font-size: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,13 +50,13 @@
 }
 
 button {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #333;
   background-color: #fff;
   border: solid #ccc 0.1rem;
   min-width: 4rem;
   min-height: 2.6rem;
-  height: 10vw;
+  height: 10vh;
   padding: 0.4rem;
   cursor: pointer;
 }
@@ -63,10 +66,20 @@ button:hover {
 }
 
 button:active {
+  font-size: 1.6rem;
   background-color: #aaa;
+  font-weight: bolder;
 }
 
 .c4 {
   background-color: orange;
+}
+
+.c4:hover {
+  background-color: #ffb01e;
+}
+
+.c4:active {
+  background-color: #bb7900;
 }
 /*# sourceMappingURL=Calculator.css.map */
