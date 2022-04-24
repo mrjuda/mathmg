@@ -1,12 +1,12 @@
 // Calc.js
 /* eslint-disable */
-import React, { Component } from 'react';
+import React from 'react';
 import calculate from './logic/calculate';
 import operate from './logic/operate';
 import Big from 'big.js';
 import './Calculator.css';
 
-export default class Calc extends Component {
+class Calc extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -68,4 +68,4 @@ export default class Calc extends Component {
   }
 }
 
-// export default Calc;
+export default Calc;
