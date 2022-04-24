@@ -1,38 +1,16 @@
+// App.js
 /* eslint-disable */
 
-import logo from './logo.svg';
 import './App.css';
+import React, { useState, useEffect } from 'react';
+import Calc from './components/Calculator';
 
-function Welcome(usr) {
-  return <p>Hello, {usr.name} ({usr.position}), welcome to JudaLabs!<br></br></p>;
-}
-
-function HiThere() {
-  return (
-      <Welcome name="Judá" position="CEO" />
-  )
-}
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <HiThere />
-        {/* <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p> */}
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <Calc />
+    );
+  }
 }
 
 export default App;
