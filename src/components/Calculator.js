@@ -2,8 +2,7 @@
 /* eslint-disable */
 import React from 'react';
 import calculate from './logic/calculate';
-// import operate from './logic/operate';
-// import Big from 'big.js';
+import operate from './logic/operate';
 import './Calculator.css';
 
 const Calc = () => {
@@ -17,7 +16,7 @@ const Calc = () => {
   const btnClick = (e) => {
     const { value } = e.target;
     const { total, next, operation } = calculate(state, value);
-    this.setState({ total, next, operation });
+    setState({ total, next, operation });
 
     const result = document.getElementById('calcDisplay');
 
