@@ -1,6 +1,8 @@
 // Calc.js
 /* eslint-disable */
 import React from 'react';
+import calculate from './logic/calculate';
+import operate from './logic/operate';
 import './Calculator.css';
 
 class Calc extends React.Component {
