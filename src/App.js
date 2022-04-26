@@ -2,10 +2,15 @@
 /* eslint-disable */
 
 import './App.css';
-import React, { useState, useEffect } from 'react';
+import React, { Component, useState, useEffect } from 'react';
 import Calc from './components/Calculator';
 
-class App extends React.Component {
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
   render() {
     return (
       <Calc />
@@ -13,4 +18,3 @@ class App extends React.Component {
   }
 }
 
-export default App;
