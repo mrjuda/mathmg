@@ -4,13 +4,15 @@ import './styles/wHeader.css';
 
 function WebHeader() {
   return (
-    <div className="WebPage">
+    <div className="WebHeader">
       <h1 className="HeaderTitle">
-        || HEADER || MM
+        Math Magicians
       </h1>
-      <p>
-        Hi there Header.
-      </p>
+      <ul>
+        <li><a href="/mathmg">Home</a></li>
+        <li><a href="/WebCalc">Calculator</a></li>
+        <li><a href="/WebQuote">Quote</a></li>
+      </ul>
     </div>
   );
 }

@@ -9,7 +9,11 @@ function WebQuote() {
         || QUOTE || MM
       </h1>
       <p>
-        Hi there Quote.
+        Math used to be awesome.
+        <br />
+        Then, they invented Calculus I and II.
+        <br />
+        (Judá Teixeira, 2010)
       </p>
     </div>
   );
