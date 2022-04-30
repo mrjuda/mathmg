@@ -1,4 +1,4 @@
-// Calc.js
+// Calculator.js
 /* eslint-disable */
 import React from 'react';
 import calculate from './logic/calculate';
