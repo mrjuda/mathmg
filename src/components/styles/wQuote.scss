@@ -1,1 +1,12 @@
 // wQuote.scss
+
+.divQuote {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  height: 70vh;
+}
+.quote {
+  font-size: 1.4rem;
+  font-weight: 700;
+}

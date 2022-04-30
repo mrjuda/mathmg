@@ -4,17 +4,11 @@ import './styles/wQuote.css';
 
 function WebQuote() {
   return (
-    <div className="WebPage">
-      <h1 className="HeaderTitle">
-        || QUOTE || MM
-      </h1>
-      <p>
+    <div className="divQuote">
+      <span className="quote">
         Math used to be awesome.
-        <br />
-        Then, they invented Calculus I and II.
-        <br />
-        (Judá Teixeira, 2010)
-      </p>
+        Then, they invented Calculus I and II. - Judá Teixeira, 2010
+      </span>
     </div>
   );
 }

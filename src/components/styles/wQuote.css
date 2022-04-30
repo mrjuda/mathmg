@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=wQuote.css.map */
+.divQuote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+  height: 70vh;
+}
+
+.quote {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+/*# sourceMappingURL=wQuote.css.map */

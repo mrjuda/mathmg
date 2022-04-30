@@ -5,11 +5,13 @@ import Calc from './Calculator';
 
 function WebCalc() {
   return (
-    <div className="WebPage">
-      <h1 className="HeaderTitle">
-        || CALCULATOR || MM
-      </h1>
-      <Calc />
+    <div className="wCalc">
+      <h2 className="HeaderTitle">
+        Try our nice calculator!
+      </h2>
+      <div className="calc">
+        <Calc />
+      </div>
     </div>
   );
 }
