@@ -1,4 +1,5 @@
 // Calculator.js
+
 import React from 'react';
 import calculate from './logic/calculate';
 import './styles/Calculator.css';
