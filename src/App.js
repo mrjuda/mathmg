@@ -1,14 +1,12 @@
 // App.js
-/* eslint-disable */
 
+import React from 'react';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import WebHeader from './components/wHeader';
 import WebHome from './components/wHome';
 import WebCalc from './components/wCalc';
 import WebQuote from './components/wQuote';
-import React, { Component, useState, useEffect } from 'react';
-import Calc from './components/Calculator';
 
 function App() {
   return (
