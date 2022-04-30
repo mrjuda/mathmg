@@ -12,6 +12,7 @@ The Math Magicians project was built using ReactJS, SCSS, HTML, and tested throu
 
 ## 📺 Live Demo
 Heroku: [https://afternoon-beyond-77616.herokuapp.com/](https://afternoon-beyond-77616.herokuapp.com/)
+
 Netlify: NOT YET
 
 ## ⚙️ Installation
