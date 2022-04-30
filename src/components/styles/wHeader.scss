@@ -1,0 +1,59 @@
+// wHeader.scss
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+* {
+  font-family: 'Comic neue', cursive, 'Courier New', Courier, monospace;
+  text-decoration: none;
+  list-style: none;
+  margin: 0.4rem;
+}
+
+body {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+}
+
+.WebHeader {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+    li {
+      margin: 0;
+      padding: 0;
+
+      a {
+        color: #000;
+        margin: 0;
+        padding: 0.6rem;
+        font-size: 1.3rem;
+        font-weight: 900;
+        text-decoration: underline;
+      }
+
+      a:hover {
+        color: #fff;
+        background-color: #000;
+      }
+    }
+  }
+}
+
+/* #### TABLET DESIGN #### */
+
+@media screen and (min-width: 560px) {
+  .WebHeader {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

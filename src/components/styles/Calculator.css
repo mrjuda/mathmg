@@ -1,5 +1,3 @@
-// Calc.scss
-
 .calc-container {
   display: -ms-grid;
   display: grid;
@@ -35,17 +33,24 @@
 
 .calc-display {
   font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   color: #ddd;
   background-color: #777;
   text-align: end;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0;
   padding: 0.2rem;
 }
 
 button {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   color: #333;
   background-color: #fff;
@@ -72,9 +77,10 @@ button:active {
 }
 
 .c4:hover {
-  background-color: rgb(255, 176, 30);
+  background-color: #ffb01e;
 }
 
 .c4:active {
-  background-color: rgb(187, 121, 0);
+  background-color: #bb7900;
 }
+/*# sourceMappingURL=Calculator.css.map */

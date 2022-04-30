@@ -1,6 +1,6 @@
 # Math Magicians React
 ## 📑 Project description
-**Build v1.4**
+**Build v1.5**
 
 This is a React project for educational purposes only.
 The Math Magicians project was built using ReactJS, SCSS, HTML, and tested through Jest.
@@ -12,6 +12,22 @@ The Math Magicians project was built using ReactJS, SCSS, HTML, and tested throu
 
 ## 📺 Live Demo
 Live version: NOT YET
+
+## ⚙️ Installation
+
+### Development
+To install this project in your machine, do the following:
+- After cloning the repository, run `npm start` from the root directory.
+- Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### Production
+To build the app for production, do the following:
+- Run `npm run build` from the root directory.
+
+For more details, follow the instructions in the [Official React Tutorial](https://create-react-app.dev/docs/deployment/).
 
 ## 🤓 Authors
 **Judá F Teixeira**

@@ -1,0 +1,24 @@
+// wCalc.scss
+
+.wCalc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.calc {
+  margin: 0;
+  padding: 0;
+}
+
+/* #### TABLET DESIGN #### */
+
+@media screen and (min-width: 560px) {
+  .wCalc {
+    flex-direction: row;
+  }
+
+  .calc {
+    width: 60%;
+  }
+}

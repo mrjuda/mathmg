@@ -1,20 +1,24 @@
 // App.js
-/* eslint-disable */
 
+import React from 'react';
 import './App.css';
-import React, { Component, useState, useEffect } from 'react';
-import Calc from './components/Calculator';
+import { Route, Routes } from 'react-router-dom';
+import WebHeader from './components/wHeader';
+import WebHome from './components/wHome';
+import WebCalc from './components/wCalc';
+import WebQuote from './components/wQuote';
 
-export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    return (
-      <Calc />
-    );
-  }
+function App() {
+  return (
+    <div className="container">
+      <WebHeader />
+      <Routes>
+        <Route exact path="/" element={<WebHome />} />
+        <Route path="/WebCalc" element={<WebCalc />} />
+        <Route path="/WebQuote" element={<WebQuote />} />
+      </Routes>
+    </div>
+  );
 }
 
+export default App;
