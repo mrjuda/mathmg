@@ -3,7 +3,7 @@
 import React from 'react';
 import calculate from './logic/calculate';
 import operate from './logic/operate';
-import './Calculator.css';
+import './styles/Calculator.css';
 
 const Calc = () => {
 
