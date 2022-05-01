@@ -13,7 +13,7 @@ function App() {
     <div className="container">
       <WebHeader />
       <Routes>
-        <Route exact path="/" element={<WebHome />} />
+        <Route exact path="/mathmg" element={<WebHome />} />
         <Route path="/WebCalc" element={<WebCalc />} />
         <Route path="/WebQuote" element={<WebQuote />} />
       </Routes>
