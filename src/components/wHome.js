@@ -6,7 +6,7 @@ function WebHome() {
   return (
     <div className="WebPage">
       <h2 className="HeaderTitle">
-        Welcome to Math Magicians Page!
+        Welcome to Math Magicians Page! -v2.3
       </h2>
       <div className="text">
         <p>
